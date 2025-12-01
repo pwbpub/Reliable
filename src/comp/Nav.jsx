@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.css";
+// import "./Nav.css";
 
 //Establishes nav items;
 //Will be called later under Nav func..."NavItems.map((item) => ( ... "
@@ -12,10 +12,10 @@ const NavItems = [
 export default function Nav() {
   return (
     <header className="header">
-      <div classname="header__content">
+      <div className="header__content">
         {/* will be changed to logo image later; text for now */}
       <a href="#home" className="header__logo">
-        <span classname="logo">Reliable Preservation</span>
+        <span className="logo">Reliable Preservation</span>
       </a>
 
     {/* maps the nav items from the NavItems array above */}
